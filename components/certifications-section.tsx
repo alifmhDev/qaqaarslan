@@ -60,7 +60,7 @@ const certificates: Certificate[] = [
   },
 ]
 
-const categories = ['All', 'Artificial Intelligence', 'Web Development']
+const categories = ['All', 'Cyber Security', 'Web Development']
 
 export default function CertificationsSection() {
   const [selectedCategory, setSelectedCategory] = useState('All')
