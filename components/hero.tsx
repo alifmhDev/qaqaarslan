@@ -21,15 +21,15 @@ export default function Hero() {
 
           
           <p className="text-xl text-muted-foreground mb-6">
-            Full-Stack Developer & Creative Problem Solver
+            Web Developer & Cyber Security
           </p>
           
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Saya adalah pengembang web berpengalaman dengan passion untuk membuat aplikasi yang user-friendly dan scalable. Dengan keahlian dalam React, Node.js, dan modern web technologies, saya membantu bisnis mencapai tujuan digital mereka.
+            Saya adalah seorang Web Developer dan Cyber Security yang berfokus pada pembuatan aplikasi modern, aman, dan efisien. Saya menguasai pengembangan web, teknik keamanan siber dasar hingga lanjutan, serta memiliki passion untuk menciptakan solusi digital yang cepat, bersih, dan aman untuk berbagai kebutuhan bisnis maupun personal.
           </p>
           
           <p className="text-muted-foreground leading-relaxed mb-8">
-            Saya percaya pada pentingnya clean code, accessibility, dan user experience dalam setiap project yang saya kerjakan.
+            Saya percaya bahwa kualitas terbaik hadir dari clean code, keamanan yang kuat, serta pengalaman pengguna yang nyaman dan mudah dipahami.
           </p>
           
           <div className="flex gap-4">
@@ -63,11 +63,11 @@ export default function Hero() {
       {/* Existing code */}
       <div className="grid grid-cols-3 gap-8 mt-20 pt-12 border-t border-border">
         <div>
-          <p className="text-4xl font-bold text-accent">50+</p>
-          <p className="text-muted-foreground">Project Selesai</p>
+          <p className="text-4xl font-bold text-accent">10+</p>
+          <p className="text-muted-foreground">Project</p>
         </div>
         <div>
-          <p className="text-4xl font-bold text-accent">5+</p>
+          <p className="text-4xl font-bold text-accent">2+</p>
           <p className="text-muted-foreground">Tahun Pengalaman</p>
         </div>
         <div>
