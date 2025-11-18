@@ -22,7 +22,7 @@ const certificates: Certificate[] = [
   title: 'Certified Phishing Prevention Specialist (CPPS)',
   category: 'Cyber Security',
   provider: 'Hack and Fix',
-  year: 2024,
+  year: 2025,
   image: '/cpps-certificate.jpg',
   description: 'Professional certification program focused on identifying, preventing, and responding to phishing threats through theoretical knowledge, practical exercises, and real-world scenarios.',
   skills: [
