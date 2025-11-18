@@ -18,17 +18,22 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-    id: '1',
-    title: 'Artificial Intelligence Basics',
-    category: 'Artificial Intelligence',
-    provider: "Andrew Ng's Coursera",
-    year: 2024,
-    image: '/javascript-certificate.jpg',
-    description: 'Comprehensive introduction to AI fundamentals, including machine learning basics, neural networks, and practical applications in real-world scenarios.',
-    skills: ['Machine Learning', 'Neural Networks', 'Python', 'Data Analysis'],
-    certificateLink: 'https://notion.so/certificate-ai',
-    projectLink: 'https://github.com/yourname/ai-project'
-  },
+  id: '1',
+  title: 'Certified Phishing Prevention Specialist (CPPS)',
+  category: 'Cyber Security',
+  provider: 'Hack and Fix',
+  year: 2024,
+  image: '/cpps-certificate.jpg',
+  description: 'Professional certification program focused on identifying, preventing, and responding to phishing threats through theoretical knowledge, practical exercises, and real-world scenarios.',
+  skills: [
+    'Phishing Detection',
+    'Cybersecurity Awareness',
+    'Incident Response',
+    'Data Protection'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/cpps-certificate.jpg',
+  projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
+},
   {
     id: '2',
     title: 'Advanced React Patterns',
