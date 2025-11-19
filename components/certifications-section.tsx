@@ -35,17 +35,18 @@ const certificates: Certificate[] = [
   projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
 },
   {
-    id: '2',
-    title: 'Advanced React Patterns',
-    category: 'Web Development',
-    provider: 'Udemy',
-    year: 2024,
-    image: '/react-certificate.jpg',
-    description: 'Mastered advanced React patterns including hooks, context API, performance optimization, and building scalable component architectures.',
-    skills: ['React', 'Hooks', 'Context API', 'Performance Optimization'],
-    certificateLink: 'https://notion.so/certificate-react',
-    projectLink: 'https://github.com/yourname/react-project'
-  },
+  id: '2',
+  title: 'WordPress Class: From Beginner to Advanced',
+  category: 'Web Development',
+  provider: 'Kursus Digital',
+  year: 2023,
+  image: '/wp-certificate.jpg',
+  description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
+  skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
+  certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
+  projectLink: 'https://github.com/yourname/wordpress-project'
+},
+
   {
     id: '3',
     title: 'Full-Stack Development',
