@@ -36,7 +36,7 @@ const certificates: Certificate[] = [
 },
   {
   id: '2',
-  title: 'WordPress Class: From Beginner to Advanced',
+  title: 'WordPress : From Beginner to Advanced',
   category: 'Web Development',
   provider: 'Kursus Digital',
   year: 2023,
