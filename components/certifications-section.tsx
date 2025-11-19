@@ -19,7 +19,7 @@ interface Certificate {
 const certificates: Certificate[] = [
   {
   id: '1',
-  title: 'Certified Phishing Prevention Specialist (CPPS)',
+  title: 'Certified Phishing Prevention Specialist',
   category: 'Cyber Security',
   provider: 'Hack and Fix',
   year: 2025,
