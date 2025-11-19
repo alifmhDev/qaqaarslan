@@ -39,7 +39,7 @@ const certificates: Certificate[] = [
   title: 'WordPress : From Beginner to Advanced',
   category: 'Web Development',
   provider: 'Kursus Digital',
-  year: 2023,
+  year: 2025,
   image: '/wp-certificate.jpg',
   description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
   skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
