@@ -44,7 +44,7 @@ const certificates: Certificate[] = [
   description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
   skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
   certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
-  projectLink: 'https://github.com/yourname/wordpress-project'
+  projectLink: ''
 },
 
   {
