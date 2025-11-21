@@ -62,7 +62,7 @@ const certificates: Certificate[] = [
     'Depression',
     'Alert Fatigue'
   ],
-  certificateLink: 'https://elearning.securityblue.team/home/certificate/513844315',
+  certificateLink: 'https://qaqaarslan.netlify.app/mental-health-cysec-certificate.jpg',
   projectLink: '' // isi jika ada project terkait
 }
 ]
