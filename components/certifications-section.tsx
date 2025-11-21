@@ -48,17 +48,23 @@ const certificates: Certificate[] = [
 },
 
   {
-    id: '3',
-    title: 'Full-Stack Development',
-    category: 'Web Development',
-    provider: 'Coursera',
-    year: 2023,
-    image: '/full-stack-certificate.jpg',
-    description: 'Complete full-stack development course covering frontend, backend, databases, and deployment strategies for production applications.',
-    skills: ['Node.js', 'MongoDB', 'React', 'Express.js', 'Deployment'],
-    certificateLink: 'https://notion.so/certificate-fullstack',
-    projectLink: 'https://github.com/yourname/fullstack-project'
-  },
+  id: '3', // ganti dengan ID yang kamu inginkan
+  title: 'Mental Health in Cybersecurity',
+  category: 'Cyber Security',
+  provider: 'Security Blue Team',
+  year: 2025,
+  image: '/mental-health-cysec-certificate.jpg', // ganti jika ada path gambar spesifik
+  description: 'Course on maintaining mental health in a fast-paced and ever-changing cybersecurity industry. Learn about different psychological conditions, how to identify their signs, and guidance to support yourself and others.',
+  skills: [
+    'Imposter Syndrome',
+    'Professional Burnout',
+    'Stress',
+    'Depression',
+    'Alert Fatigue'
+  ],
+  certificateLink: 'https://elearning.securityblue.team/home/certificate/513844315',
+  projectLink: '' // isi jika ada project terkait
+}
 ]
 
 const categories = ['All', 'Cyber Security', 'Web Development']
