@@ -69,19 +69,19 @@ const certificates: Certificate[] = [
   id: '4',
   title: 'Introduction to Virtual Machine',
   category: 'System Administration',
-  provider: 'Kursus Digital',
+  provider: 'Aguna Course',
   year: 2025,
-  image: '/virtual-machine-certificate.jpg', // ganti jika ada
+  image: '/virtual-machine-certificate.jpg', // replace if needed
   description:
-    'Course ini membahas dasar-dasar virtual machine dan bagaimana teknologi ini digunakan dalam dunia IT modern. Kamu akan mempelajari konsep kerja virtual machine, arsitekturnya, hingga cara menggunakan platform populer seperti VirtualBox dan VMWare. Selain itu, kursus ini juga mengajarkan cara melakukan cloning, snapshot, export–import, serta konfigurasi jaringan pada virtual machine. Materi ini merupakan fondasi penting sebelum memasuki dunia System Administration, mengingat sebagian besar server saat ini berjalan di atas lingkungan virtual.',
+    'This course introduces the fundamental concepts of virtual machines and how they are widely used in modern IT environments. You will learn how virtual machines work, explore their architecture, and get hands-on experience using platforms such as VirtualBox and VMWare. The course also covers cloning, snapshots, export–import processes, and network configuration within virtual machine environments. This material serves as an essential foundation before moving into System Administration, as most servers today operate on virtualized infrastructure.',
   skills: [
-    'Arsitektur Virtual Machine',
+    'Virtual Machine Architecture',
     'VirtualBox',
     'VMWare',
-    'Clone Virtual Machine',
-    'Snapshot Virtual Machine',
-    'Export/Import Virtual Machine',
-    'Networking pada Virtual Machine'
+    'Virtual Machine Cloning',
+    'Virtual Machine Snapshots',
+    'Export/Import Virtual Machines',
+    'Virtual Machine Networking'
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg',
   // projectLink: ''
