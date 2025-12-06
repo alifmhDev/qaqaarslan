@@ -85,7 +85,28 @@ const certificates: Certificate[] = [
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg',
   // projectLink: ''
+},
+  {
+  id: '5',
+  title: 'Learn HTML',
+  category: 'Web Development',
+  provider: 'Always Ngoding',
+  year: 2025,
+  image: '/alwaysngoding-html-certificate.jpg', // replace with your path
+  description:
+    'This course provides a solid introduction to HTML (HyperText Markup Language), the core markup language used to build website structure. Throughout this program, learners explore essential HTML concepts, including tags, elements, attributes, tables, forms, and basic page layout. By completing all modules, learners gain a strong foundation for building web pages and preparing for further study in front-end web development.',
+  skills: [
+    'Introduction to HTML',
+    'HTML Tags, Elements, and Attributes',
+    'Basic HTML Structure',
+    'HTML Tables',
+    'HTML Forms',
+    'Additional HTML Concepts'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg', // replace with your link
+  // projectLink: ''
 }
+
 
 ]
 
