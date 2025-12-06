@@ -44,7 +44,7 @@ const certificates: Certificate[] = [
   description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
   skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
   certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
-  projectLink: ''
+  // projectLink: ''
 },
 
   {
@@ -63,8 +63,30 @@ const certificates: Certificate[] = [
     'Alert Fatigue'
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/mental-health-cysec-certificate.jpg',
-  projectLink: '' // isi jika ada project terkait
+  // projectLink: '' // isi jika ada project terkait
+},
+  {
+  id: '4',
+  title: 'Introduction to Virtual Machine',
+  category: 'System Administration',
+  provider: 'Kursus Digital',
+  year: 2025,
+  image: '/virtual-machine-certificate.jpg', // ganti jika ada
+  description:
+    'Course ini membahas dasar-dasar virtual machine dan bagaimana teknologi ini digunakan dalam dunia IT modern. Kamu akan mempelajari konsep kerja virtual machine, arsitekturnya, hingga cara menggunakan platform populer seperti VirtualBox dan VMWare. Selain itu, kursus ini juga mengajarkan cara melakukan cloning, snapshot, export–import, serta konfigurasi jaringan pada virtual machine. Materi ini merupakan fondasi penting sebelum memasuki dunia System Administration, mengingat sebagian besar server saat ini berjalan di atas lingkungan virtual.',
+  skills: [
+    'Arsitektur Virtual Machine',
+    'VirtualBox',
+    'VMWare',
+    'Clone Virtual Machine',
+    'Snapshot Virtual Machine',
+    'Export/Import Virtual Machine',
+    'Networking pada Virtual Machine'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg',
+  // projectLink: ''
 }
+
 ]
 
 const categories = ['All', 'Cyber Security', 'Web Development']
