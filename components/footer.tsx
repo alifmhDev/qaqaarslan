@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-muted-foreground">
-          <p>© 2025 Your Name. Semua hak dilindungi.</p>
+          <p>© 2025 Qaqa Arslan. Semua hak dilindungi.</p>
           <p>Dibangun dengan <span className="text-red-500">❤</span> menggunakan Next.js</p>
         </div>
       </div>
