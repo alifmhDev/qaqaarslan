@@ -35,18 +35,24 @@ const certificates: Certificate[] = [
   projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
 },
   {
-  id: '2',
-  title: 'WordPress : From Beginner to Advanced',
-  category: 'Web Development',
-  provider: 'Kursus Digital',
+  id: '2', // ganti dengan ID yang kamu inginkan
+  title: 'Introduction to OSINT',
+  category: 'Cyber Security',
+  provider: 'Security Blue Team',
   year: 2025,
-  image: '/wp-certificate.jpg',
-  description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
-  skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
-  certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
-  // projectLink: ''
+  image: '/introduction-to-osint-certificate.jpg', // ganti jika ada path gambar spesifik
+  description: 'Introductory course on Open-Source Intelligence (OSINT) that provides insights into collecting and utilizing publicly available information for activities such as target information gathering, public exposure checks, and investigations by security teams and law enforcement.',
+  skills: [
+    'Open-Source Intelligence (OSINT)',
+    'Information Gathering',
+    'Google Dorking',
+    'OSINT Framework',
+    'Social Media Intelligence',
+    'Reverse Image Search'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-osint-certificate.jpg', // isi jika sudah ada link sertifikat
+  // projectLink: '' // isi jika ada project terkait
 },
-
   {
   id: '3', // ganti dengan ID yang kamu inginkan
   title: 'Mental Health in Cybersecurity',
@@ -105,7 +111,19 @@ const certificates: Certificate[] = [
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg', // replace with your link
   // projectLink: ''
-}
+},
+    {
+  id: '6',
+  title: 'WordPress : From Beginner to Advanced',
+  category: 'Web Development',
+  provider: 'Kursus Digital',
+  year: 2025,
+  image: '/wp-certificate.jpg',
+  description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
+  skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
+  certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
+  // projectLink: ''
+},
 
 
 ]
