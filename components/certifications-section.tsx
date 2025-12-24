@@ -123,7 +123,7 @@ const certificates: Certificate[] = [
   skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
   certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
   // projectLink: ''
-},
+}
 
 
 ]
