@@ -18,113 +18,127 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-  id: '1',
-  title: 'Certified Phishing Prevention Specialist',
-  category: 'Cyber Security',
-  provider: 'Hack and Fix',
-  year: 2025,
-  image: '/cpps-certificate.jpg',
-  description: 'Professional certification program focused on identifying, preventing, and responding to phishing threats through theoretical knowledge, practical exercises, and real-world scenarios.',
-  skills: [
-    'Phishing Detection',
-    'Cybersecurity Awareness',
-    'Incident Response',
-    'Data Protection'
-  ],
-  certificateLink: 'https://qaqaarslan.netlify.app/cpps-certificate.jpg',
-  projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
-},
+    id: '1',
+    title: 'Certified Phishing Prevention Specialist',
+    category: 'Cyber Security',
+    provider: 'Hack and Fix',
+    year: 2025,
+    image: '/cpps-certificate.jpg',
+    description: 'Professional certification program focused on identifying, preventing, and responding to phishing threats through theoretical knowledge, practical exercises, and real-world scenarios.',
+    skills: [
+      'Phishing Detection',
+      'Cybersecurity Awareness',
+      'Incident Response',
+      'Data Protection'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/cpps-certificate.jpg',
+    projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
+  },
   {
-  id: '2', // ganti dengan ID yang kamu inginkan
-  title: 'Introduction to OSINT',
-  category: 'Cyber Security',
-  provider: 'Security Blue Team',
-  year: 2025,
-  image: '/introduction-to-osint-certificate.jpg', // ganti jika ada path gambar spesifik
-  description: 'Introductory course on Open-Source Intelligence (OSINT) that provides insights into collecting and utilizing publicly available information for activities such as target information gathering, public exposure checks, and investigations by security teams and law enforcement.',
-  skills: [
-    'Open-Source Intelligence (OSINT)',
-    'Information Gathering',
-    'Google Dorking',
-    'OSINT Framework',
-    'Social Media Intelligence',
-    'Reverse Image Search'
-  ],
-  certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-osint-certificate.jpg', // isi jika sudah ada link sertifikat
-  // projectLink: '' // isi jika ada project terkait
-},
+    id: '2',
+    title: 'Introduction to OSINT',
+    category: 'Cyber Security',
+    provider: 'Security Blue Team',
+    year: 2025,
+    image: '/introduction-to-osint-certificate.jpg',
+    description: 'Introductory course on Open-Source Intelligence (OSINT) that provides insights into collecting and utilizing publicly available information for investigations and security operations.',
+    skills: [
+      'Open-Source Intelligence (OSINT)',
+      'Information Gathering',
+      'Google Dorking',
+      'OSINT Framework',
+      'Social Media Intelligence',
+      'Reverse Image Search'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-osint-certificate.jpg'
+  },
   {
-  id: '3', // ganti dengan ID yang kamu inginkan
-  title: 'Mental Health in Cybersecurity',
-  category: 'Cyber Security',
-  provider: 'Security Blue Team',
-  year: 2025,
-  image: '/mental-health-cysec-certificate.jpg', // ganti jika ada path gambar spesifik
-  description: 'Course on maintaining mental health in a fast-paced and ever-changing cybersecurity industry. Learn about different psychological conditions, how to identify their signs, and guidance to support yourself and others.',
-  skills: [
-    'Imposter Syndrome',
-    'Professional Burnout',
-    'Stress',
-    'Depression',
-    'Alert Fatigue'
-  ],
-  certificateLink: 'https://qaqaarslan.netlify.app/mental-health-cysec-certificate.jpg',
-  // projectLink: '' // isi jika ada project terkait
-},
+    id: '3',
+    title: 'Mental Health in Cybersecurity',
+    category: 'Cyber Security',
+    provider: 'Security Blue Team',
+    year: 2025,
+    image: '/mental-health-cysec-certificate.jpg',
+    description: 'Course on maintaining mental health in a fast-paced and ever-changing cybersecurity industry.',
+    skills: [
+      'Imposter Syndrome',
+      'Professional Burnout',
+      'Stress',
+      'Depression',
+      'Alert Fatigue'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/mental-health-cysec-certificate.jpg'
+  },
   {
-  id: '4',
-  title: 'Introduction to Virtual Machine',
-  category: 'System Administration',
-  provider: 'Aguna Course',
-  year: 2025,
-  image: '/virtual-machine-certificate.jpg', // replace if needed
-  description:
-    'This course introduces the fundamental concepts of virtual machines and how they are widely used in modern IT environments. You will learn how virtual machines work, explore their architecture, and get hands-on experience using platforms such as VirtualBox and VMWare. The course also covers cloning, snapshots, export–import processes, and network configuration within virtual machine environments. This material serves as an essential foundation before moving into System Administration, as most servers today operate on virtualized infrastructure.',
-  skills: [
-    'Virtual Machine Architecture',
-    'VirtualBox',
-    'VMWare',
-    'Virtual Machine Cloning',
-    'Virtual Machine Snapshots',
-    'Export/Import Virtual Machines',
-    'Virtual Machine Networking'
-  ],
-  certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg',
-  // projectLink: ''
-},
+    id: '4',
+    title: 'Introduction to Virtual Machine',
+    category: 'System Administration',
+    provider: 'Aguna Course',
+    year: 2025,
+    image: '/virtual-machine-certificate.jpg',
+    description: 'This course introduces the fundamental concepts of virtual machines and their usage in modern IT environments.',
+    skills: [
+      'Virtual Machine Architecture',
+      'VirtualBox',
+      'VMWare',
+      'Virtual Machine Cloning',
+      'Virtual Machine Snapshots',
+      'Export/Import Virtual Machines',
+      'Virtual Machine Networking'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg'
+  },
   {
-  id: '5',
-  title: 'Learn HTML',
-  category: 'Web Development',
-  provider: 'Always Ngoding',
-  year: 2025,
-  image: '/alwaysngoding-html-certificate.jpg', // replace with your path
-  description:
-    'This course provides a solid introduction to HTML (HyperText Markup Language), the core markup language used to build website structure. Throughout this program, learners explore essential HTML concepts, including tags, elements, attributes, tables, forms, and basic page layout. By completing all modules, learners gain a strong foundation for building web pages and preparing for further study in front-end web development.',
-  skills: [
-    'Introduction to HTML',
-    'HTML Tags, Elements, and Attributes',
-    'Basic HTML Structure',
-    'HTML Tables',
-    'HTML Forms',
-    'Additional HTML Concepts'
-  ],
-  certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg', // replace with your link
-  // projectLink: ''
-},
-    {
-  id: '6',
-  title: 'WordPress : From Beginner to Advanced',
-  category: 'Web Development',
-  provider: 'Kursus Digital',
-  year: 2025,
-  image: '/wp-certificate.jpg',
-  description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques. Guided by M. Fadillah Arsa, S.Kom., M.M., this course teaches how to build a professional website without coding, using WordPress efficiently through practical steps and real case studies. Suitable for all backgrounds.',
-  skills: ['WordPress', 'Website Building', 'CMS', 'No-Code Website Development'],
-  certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/',
-  // projectLink: ''
-}
-
+    id: '5',
+    title: 'Introduction to Virtual Machines',
+    category: 'System Administration',
+    provider: 'Security Blue Team',
+    year: 2025,
+    image: '/introduction-to-virtual-machines-sbt-certificate.jpg',
+    description: 'This course helps learners understand what virtual machines and hypervisors are, why virtualization is used, and how to create and configure both local and cloud virtual machines.',
+    skills: [
+      'Virtual Machines',
+      'Hypervisors',
+      'Local Virtual Machine Deployment',
+      'Cloud Virtual Machines',
+      'Virtual Machine Configuration'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-virtual-machines-sbt-certificate.jpg'
+  },
+  {
+    id: '6',
+    title: 'Learn HTML',
+    category: 'Web Development',
+    provider: 'Always Ngoding',
+    year: 2025,
+    image: '/alwaysngoding-html-certificate.jpg',
+    description: 'This course provides a solid introduction to HTML for building website structure.',
+    skills: [
+      'Introduction to HTML',
+      'HTML Tags, Elements, and Attributes',
+      'Basic HTML Structure',
+      'HTML Tables',
+      'HTML Forms',
+      'Additional HTML Concepts'
+    ],
+    certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg'
+  },
+  {
+    id: '7',
+    title: 'WordPress : From Beginner to Advanced',
+    category: 'Web Development',
+    provider: 'Kursus Digital',
+    year: 2025,
+    image: '/wp-certificate.jpg',
+    description: 'A comprehensive WordPress class that takes learners from the fundamentals to advanced techniques.',
+    skills: [
+      'WordPress',
+      'Website Building',
+      'CMS',
+      'No-Code Website Development'
+    ],
+    certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/'
+  }
 
 ]
 
