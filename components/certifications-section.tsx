@@ -35,7 +35,25 @@ const certificates: Certificate[] = [
     projectLink: 'https://qaqaarslan.notion.site/Certified-Phishing-Prevention-Specialist-CPPS-24c625370c79804eb9f3dff5fd01affe'
   },
   {
-    id: '2',
+  id: '2',
+  title: 'Cybersecurity Career Starter Certification (CCSC)',
+  category: 'Cyber Security',
+  provider: 'Hack and Fix',
+  year: 2025,
+  image: '/ccsc-certificate.jpg',
+  description: 'Beginner-friendly cybersecurity certification designed to help aspiring professionals start a career in cybersecurity. The program covers fundamental digital security concepts, key industry roles, hands-on career strategies, personal lab building, and guidance for entering the job market even without prior technical experience.',
+  skills: [
+    'Cybersecurity Fundamentals',
+    'Security Operations Basics',
+    'Threat Detection',
+    'Career Development in Cybersecurity',
+    'SOC Fundamentals'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/ccsc-certificate.jpg',
+  // projectLink: ''
+},
+  {
+    id: '3',
     title: 'Introduction to OSINT',
     category: 'Cyber Security',
     provider: 'Security Blue Team',
@@ -53,7 +71,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-osint-certificate.jpg'
   },
   {
-    id: '3',
+    id: '4',
     title: 'Mental Health in Cybersecurity',
     category: 'Cyber Security',
     provider: 'Security Blue Team',
@@ -70,7 +88,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/mental-health-cysec-certificate.jpg'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Introduction to Virtual Machine',
     category: 'System Administration',
     provider: 'Aguna Course',
@@ -89,7 +107,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/virtual-machine-certificate.jpg'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Introduction to Virtual Machines',
     category: 'System Administration',
     provider: 'Security Blue Team',
@@ -106,7 +124,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-virtual-machines-sbt-certificate.jpg'
   },
   {
-    id: '6',
+    id: '7',
     title: 'Learn HTML',
     category: 'Web Development',
     provider: 'Always Ngoding',
@@ -124,7 +142,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg'
   },
   {
-    id: '7',
+    id: '8',
     title: 'WordPress : From Beginner to Advanced',
     category: 'Web Development',
     provider: 'Kursus Digital',
