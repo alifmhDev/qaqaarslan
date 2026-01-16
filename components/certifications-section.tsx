@@ -156,7 +156,26 @@ const certificates: Certificate[] = [
       'No-Code Website Development'
     ],
     certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/'
-  }
+  },
+  {
+  id: '9',
+  title: 'Introduction to Dark Web Operations',
+  category: 'Cyber Security',
+  provider: 'Security Blue Team',
+  year: 2026,
+  image: '/introduction-to-dark-web-operations-certificate.jpg',
+  description: 'Introductory course covering clear, deep, and dark web concepts, focusing on how the dark web is used by criminals, governments, law enforcement, and security teams. The course includes hands-on experience using the TOR browser for dark web intelligence and threat analysis.',
+  skills: [
+    'Dark Web Intelligence',
+    'TOR Browser',
+    'Threat Intelligence',
+    'Dark Web OSINT',
+    'Cybercrime Analysis',
+    'Intelligence Collection'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-dark-web-operations-certificate.jpg'
+}
+
 
 ]
 
