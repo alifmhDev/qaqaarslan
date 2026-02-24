@@ -174,7 +174,27 @@ const certificates: Certificate[] = [
     'Intelligence Collection'
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-dark-web-operations-certificate.jpg'
-}
+},
+  {
+  id: '10',
+  title: 'Basic Cybersecurity',
+  category: 'Cyber Security',
+  provider: 'PT Codepolitan Integrasi Indonesia',
+  year: 2026,
+  image: '/basic-cybersecurity-codepolitan-certificate.jpg',
+  description: 'Online foundational cybersecurity program designed to provide practical knowledge on protecting personal data and digital assets. The course covers core cybersecurity concepts, common threats, encryption and strong password practices, phishing detection using simple tools, basic network security, as well as cyber ethics and Indonesian cyber law.',
+  skills: [
+    'Cybersecurity Fundamentals',
+    'Common Cyber Threats',
+    'Encryption Basics',
+    'Strong Password Practices',
+    'Phishing Detection',
+    'Basic Network Security',
+    'Cyber Ethics',
+    'Indonesian Cyber Law'
+  ],
+  certificateLink: '/basic-cybersecurity-codepolitan-certificate.jpg'
+},
 
 
 ]
