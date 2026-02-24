@@ -181,7 +181,7 @@ const certificates: Certificate[] = [
   category: 'Cyber Security',
   provider: 'PT Codepolitan Integrasi Indonesia',
   year: 2026,
-  image: '/basic-cybersecurity-codepolitan-certificate.jpg',
+  image: 'https://qaqaarslan.netlify.app/basic-cybersecurity-codepolitan-certificate.jpg',
   description: 'Online foundational cybersecurity program designed to provide practical knowledge on protecting personal data and digital assets. The course covers core cybersecurity concepts, common threats, encryption and strong password practices, phishing detection using simple tools, basic network security, as well as cyber ethics and Indonesian cyber law.',
   skills: [
     'Cybersecurity Fundamentals',
