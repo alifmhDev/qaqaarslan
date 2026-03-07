@@ -126,7 +126,7 @@ const certificates: Certificate[] = [
   {
   id: '7',
   title: 'Linux Fundamental',
-  category: 'System Administration',
+  category: 'Cyber Security',
   provider: 'Aguna Course',
   year: 2026,
   image: '/linux-fundamental-certificate.jpg',
