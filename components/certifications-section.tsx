@@ -1,4 +1,4 @@
-'use client'
+ 'use client'
 
 import { useState } from 'react'
 import { ChevronDown, ExternalLink, FileText } from 'lucide-react'
@@ -124,7 +124,25 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-virtual-machines-sbt-certificate.jpg'
   },
   {
-    id: '7',
+  id: '7',
+  title: 'Linux Fundamental',
+  category: 'System Administration',
+  provider: 'Aguna Course',
+  year: 2026,
+  image: '/linux-fundamental-certificate.jpg',
+  description: 'Fundamental Linux course designed to introduce the basics of Linux operating systems for beginners who want to pursue server administration. The course covers Linux installation, command line usage, file management, and practical command line tips and tricks.',
+  skills: [
+    'Linux Installation',
+    'Command Line Interface (CLI)',
+    'File Management in Linux',
+    'Linux Command Basics',
+    'Command Line Tips & Tricks'
+  ],
+  certificateLink: 'https://qaqaarslan.netlify.app/linux-fundamental-certificate.jpg',
+  // projectLink: ''
+}
+  {
+    id: '8',
     title: 'Learn HTML',
     category: 'Web Development',
     provider: 'Always Ngoding',
@@ -142,7 +160,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://qaqaarslan.netlify.app/alwaysngoding-html-certificate.jpg'
   },
   {
-    id: '8',
+    id: '9',
     title: 'WordPress : From Beginner to Advanced',
     category: 'Web Development',
     provider: 'Kursus Digital',
@@ -158,7 +176,7 @@ const certificates: Certificate[] = [
     certificateLink: 'https://kursusdigital.id/sertifikat/b1c427971d07bc7173d645635f0e9d0a/'
   },
   {
-  id: '9',
+  id: '10',
   title: 'Introduction to Dark Web Operations',
   category: 'Cyber Security',
   provider: 'Security Blue Team',
@@ -176,7 +194,7 @@ const certificates: Certificate[] = [
   certificateLink: 'https://qaqaarslan.netlify.app/introduction-to-dark-web-operations-certificate.jpg'
 },
   {
-  id: '10',
+  id: '11',
   title: 'Basic Cybersecurity',
   category: 'Cyber Security',
   provider: 'PT Codepolitan Integrasi Indonesia',
