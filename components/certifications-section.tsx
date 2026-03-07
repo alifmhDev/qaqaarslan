@@ -140,7 +140,7 @@ const certificates: Certificate[] = [
   ],
   certificateLink: 'https://qaqaarslan.netlify.app/linux-fundamental-certificate.jpg',
   // projectLink: ''
-}
+},
   {
     id: '8',
     title: 'Learn HTML',
